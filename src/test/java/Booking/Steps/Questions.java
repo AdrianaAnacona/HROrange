@@ -21,8 +21,7 @@ public class Questions {
 	public Questions (WebDriver driver){
 		this.driver= driver;
 	}
-
-	@Step
+	
 	public void screenShot() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		File scr = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

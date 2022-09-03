@@ -28,6 +28,8 @@ public class ButtonPages {
     public void btnSaveEmployee(){
         btnSaveEmployee.click();
     }
+    public void ejemplo(){
 
+    }
 
 }
